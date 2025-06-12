@@ -6,7 +6,7 @@ This repository contains the code for all the experiments and charts in the pape
 
 The data is expected to be in the 'Data' folder in the following format:
 song_audio_features.csv - a csv file with song ideas and their audio features as well as their genres. 
-This repository contains a sample dataset file, but in order to do the full analysis you will need a much larger dataset. The dataset used in the paper contains roughly 20 Million songs. Sadly sharing this dataset is not possible due to spotifies terms of service. A much smaller dataset is available on Kaggle [here]() (1 Million songs).
+This repository contains a sample dataset file, but in order to do the full analysis you will need a much larger dataset. The dataset used in the paper contains roughly 20 Million songs. Sadly sharing this dataset is not possible due to spotifies terms of service. A smaller dataset is available on Kaggle (https://www.kaggle.com/datasets/kasparrothenfusser/spotify-songs-with-audio-features-and-genres/data) (1 Million songs), which does replicate the results.
 
 ## Data Preprocessing
 
