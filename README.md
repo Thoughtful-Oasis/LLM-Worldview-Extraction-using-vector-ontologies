@@ -6,11 +6,11 @@ This repository contains the code for all the experiments and charts in the pape
 
 The data is expected to be in the 'Data' folder in the following format:
 song_audio_features.csv - a csv file with song ideas and their audio features as well as their genres. 
-This repository contains a sample dataset file, but in order to do the full analysis you will need a much larger dataset. The dataset used in the paper contains roughly 20 Million songs. Sadly sharing this dataset is not possible due to spotifies terms of service. A much smaller dataset is available on Kaggle [here]() (1.2 Million songs).
+This repository contains a sample dataset file, but in order to do the full analysis you will need a much larger dataset. The dataset used in the paper contains roughly 20 Million songs. Sadly sharing this dataset is not possible due to spotifies terms of service. A much smaller dataset is available on Kaggle [here]() (1 Million songs).
 
 ## Data Preprocessing
 
-In order to use the data we need to make it available by its location. To do so, we run the preprocess_data.py script. This script will take the raw data and preprocess it into a dense high dimension array representing the vector space. (the reason for this is explained in the paper and mainly serves to prevent dimensional drift)
+In order to use the data we need to make it available by its location in the Vector ontology. To do so, we run the preprocess_data.py script. This script will take the raw data and preprocess it into a dense high dimension array representing the vector space. (the reason for this is explained in the paper)
 
 to run the preprocess_data.py script, run the following command:
 ```
@@ -19,6 +19,8 @@ python scripts/preprocessing/preprocess_data.py
 
 ## Building the search database
 
+REQUIRED: set environment variable for "OPENAI_API_KEY"
+
 The Search database holds records of query locations and their corresponding songs and genre distribution, which will be required for the analysis. These records are created by running the build_search_db.py script and setting the appropriate api keys.
 
 you can adjust the following parameters:
@@ -26,6 +28,9 @@ you can adjust the following parameters:
 - number_of_songs: the number of songs to retrieve for each query.
 - list of genres, we provided a default list and a large list, which was used in the paper.
 
+
+### LLM setting
+You can change the import function in the build_search_db.py to import from ollama_llm_response.py instead of llm_response.py this will run the experiment with a locally hosted model using Ollama.
 
 to run the build_search_db.py script, run the following command:
 ```

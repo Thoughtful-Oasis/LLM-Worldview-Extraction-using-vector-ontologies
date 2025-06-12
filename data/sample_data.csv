@@ -1,0 +1,11 @@
+danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,id,genres
+0.323,0.654,1,-6.512,1,0.161,0.04,0.668,0.369,0.345,67.133,384563,4.0,2BpZaVEQGs90FoUkTm1v9Z,free jazz;comedy;avant-garde
+0.386,0.142,0,-19.89,1,0.0388,0.131,0.00466,0.0906,0.21,115.687,224333,4.0,56zHZGHVMYDEmsf891IsW7,power pop
+0.704,0.853,9,-5.508,1,0.385,0.218,0.0,0.0986,0.397,81.915,212881,4.0,635BbmR384z7EUMqwKmeFP,miami bass;pop rap
+0.655,0.875,11,-5.603,0,0.0987,0.514,1.3e-05,0.102,0.49,124.964,304623,4.0,1XfQJ5N7Lxcc4wTSMPf6ex,moroccan chaabi;raï
+0.542,0.287,5,-16.663,0,0.0313,0.843,0.892,0.105,0.192,118.88,333493,3.0,5p585NvrxoZ9w1zFyEot0E,smooth jazz;jazz funk;jazz fusion
+0.736,0.273,7,-11.478,1,0.0416,0.878,0.851,0.112,0.599,119.534,144638,4.0,6Intjvp5zvQjJxuysUMjKl,exotica
+0.369,0.0768,1,-26.348,1,0.0396,0.993,0.858,0.696,0.191,124.449,448360,5.0,3aHttv9OdUIOCITkGfhmqv,chamber music;classical piano;classical
+0.683,0.347,3,-14.724,1,0.0522,0.983,0.792,0.151,0.821,106.285,169547,4.0,0xqG9EWppC62aTrAOdZuNn,classic blues;country blues;big band;blues;boogie-woogie;ragtime
+0.635,0.746,4,-8.574,1,0.0352,0.0601,1.51e-05,0.103,0.513,134.044,217933,4.0,6zNCtO5y5mOwNQgK7v6Iic,modern rock
+0.645,0.777,5,-5.249,0,0.0494,0.0232,5.38e-06,0.221,0.729,142.674,239027,4.0,1xCYHtj7sgJQbgMv9AxBRM,kayokyoku;city pop;j-pop
